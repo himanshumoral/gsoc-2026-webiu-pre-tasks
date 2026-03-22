@@ -212,6 +212,17 @@ Key principles:
 
 ---
 
+## Design Decisions
+
+- Redis is used instead of in-memory caching to ensure consistency across multiple instances
+- Webhooks are preferred over polling to reduce unnecessary API calls
+- GraphQL is used over REST for selective data fetching and reduced payload size
+- MongoDB is used for flexibility in storing varying repository metadata
+
+These choices are made to optimize performance, scalability, and API efficiency under real-world constraints.
+
+---
+
 ## Conclusion
 
 This architecture prioritizes simplicity while addressing real-world constraints such as rate limits, latency, and scalability. By combining caching, event-driven updates, and efficient API usage, the system ensures fast, reliable, and scalable data aggregation for the WebiU platform.
