@@ -8,7 +8,8 @@
 
 ## Architecture Diagram
 
-*(Add your diagram image here)*
+<img width="1419" height="703" alt="image" src="https://github.com/user-attachments/assets/01bf38d7-fad7-4412-9eb9-7995f3741e03" />
+
 
 ---
 
